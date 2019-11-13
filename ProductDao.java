@@ -12,7 +12,7 @@ import cn.snnu.mm.bean.Order;
 import cn.snnu.mm.bean.Product;
 
 public interface ProductDao {
-
+	
 	//热门推荐商品
 	public List<Product> findByHot() throws SQLException;
 
