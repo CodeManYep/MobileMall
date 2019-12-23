@@ -520,8 +520,8 @@ public class ProductController extends BaseController {
 		String emailMsg = "您有新的提单信息，请前往订单列表查看";
 		
 		try {
-		    //MailUtils.sendMail("1396744698@qq.com", emailMsg);//客户邮箱
-			MailUtil.sendMail("alex_h_zzz@yahoo.com", emailMsg);//商家邮箱
+		    //MailUtils.sendMail("email address", emailMsg);//客户邮箱
+			MailUtil.sendMail("email address", emailMsg);//商家邮箱
 		} catch (MessagingException e) {
 			e.printStackTrace();
 		}
